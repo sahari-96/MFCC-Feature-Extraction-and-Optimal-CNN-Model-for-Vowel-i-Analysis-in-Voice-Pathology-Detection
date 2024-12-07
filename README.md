@@ -1,14 +1,14 @@
 # MFCC-Feature-Extraction-and-Optimal-CNN-Model-for-Vowel-i-Analysis-in-Voice-Pathology-Detection
 
-Project Overview
+#Project Overview
 
 This project explores the analysis of the vowel /i/ using the AVFAD dataset. The objective is to extract 20 Mel-Frequency Cepstral Coefficient (MFCC) features and classify the data using an optimized Convolutional Neural Network (CNN) model. The ultimate goal was to achieve high classification accuracy while minimizing the model's parameters.
 
-Dataset
+#Dataset
 
 The dataset used for this project is the AVFAD dataset, specifically focusing on the vowel /i/. This dataset is widely recognized for its application in speech analysis and voice pathology detection.
 
-Methodology
+#Methodology
 
 1. MFCC Feature Extraction
 
@@ -38,7 +38,7 @@ Performance metrics included validation accuracy and test accuracy.
 
 All runs were conducted using a T4 GPU on Google Colab, ensuring efficient model training and evaluation.
 
-Results
+#Results
 
 The optimized CNN model achieved the following results:
 
@@ -48,15 +48,9 @@ Validation Accuracy: 0.8857
 
 This performance represents a significant improvement in computational efficiency while maintaining competitive accuracy in the domain of speech analysis.
 
-Significance
+#Significance
 
 This project demonstrates the potential of optimized CNN architectures in speech analysis tasks, making models more suitable for real-world applications where computational resources are limited. The methodology and results can be a foundation for future research in voice pathology detection and similar fields.
 
-Key Takeaways
 
-Extracting MFCC features from vowel /i/ provides a robust representation for classification tasks.
-
-Optimizing CNN models for fewer parameters does not necessarily compromise accuracy.
-
-Lightweight models with fewer filters and neurons can still achieve excellent accuracy, as demonstrated in this project.
 
