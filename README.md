@@ -18,13 +18,13 @@ The first step was extracting 20 MFCC features from the audio samples of the vow
 
 Initially, we used the CNN architecture employed in our previous project, "Voice Pathology Detection by Vowel /a/". While effective, this model was parameter-heavy. To optimize performance:
 
-Baseline Model:
+#Baseline Model:
 
 Three convolutional layers with filters: 16, 32, 64.
 
 Dense layer with 128 neurons.
 
-Optimized CNN Model:
+#Optimized CNN Model:
 
 Reduced the number of filters in convolutional layers to 8, 16, and 32, respectively.
 
